@@ -1,0 +1,117 @@
+:root {
+    background-color: rgb(223, 224, 220);
+    --headers: rgba(0, 0, 0, 0.80);
+    --info: #fff;
+    --backgrounds: rgb(23, 191, 232);
+    --dark-blue: darkblue;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.topPage {
+    display: block;
+    width: 100%;
+    height: 280px;
+}
+
+.navBar {
+    display: flex;
+    width: 100%;
+    height: 75px;
+    background-color: rgba(0, 0, 0, 0.80);
+    justify-content: space-between;
+    margin-bottom: 0;
+}
+
+.title {
+    width: 25%;
+    height: 50px;
+    background-color: var(--backgrounds);
+    color: var(--headers);
+    font-size: 1.8rem;
+    margin-top: 12.5px;
+}
+
+.title h1 {
+    margin-top: 0;
+    float: right;
+    margin-right: 10px;
+}
+
+.navBar ul {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.navBar li {
+    display: inline;
+    list-style: none;
+    color: var(--backgrounds);
+    margin: 20px ;
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.headerPhoto {
+    width: 100%;
+    height: 180px;
+    background: linear-gradient(#e66465, #9198e5);;
+    margin-top: 0;
+}
+
+.headerPhoto h2 {
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.h2div {
+    width: 25%;
+    height: 40px;
+    float: right;
+    margin-top: 100px;
+    margin-right: 75px;
+    color: var(--info);
+    background-color: var(--backgrounds);
+    text-align: center;
+}
+
+.aboutMe {
+    display: inline-flex;
+    width: 100%;
+    margin-left: 8%;
+    margin-bottom: 30px;
+}
+
+
+.aboutMe h2 {
+    font-size: 2.75rem;
+    color: var(--dark-blue);
+    opacity: 0.70;
+    margin-top: 0;
+    width: 150px;
+    margin-right: 20px;
+    text-align: right;
+
+}
+
+.infoContainer {
+    width: 65%;
+    border-left: 4px solid var(--dark-blue);
+    padding-left: 40px;
+}
+
+.infoContainer p {
+    margin-top: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.projectsHeader h2 {
+    font-size: 2.75rem;
+    color: var(--dark-blue);
+    opacity: 0.70;
+    margin-top: 0;
+    width: 200px;
+    margin-right: 20px;
+    text-align: right;
+}
