@@ -1,3 +1,4 @@
+/* Defining root variables to be used later */
 :root {
     background-color: rgb(223, 224, 220);
     --headers: rgba(0, 0, 0, 0.80);
@@ -7,7 +8,7 @@
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
 }
-
+/* Main styling to make sure all content displays in a flex */
 main {
     display: flex;
     flex-direction: column;
@@ -48,6 +49,8 @@ main {
 .navBar ul {
     margin-top: auto;
     margin-bottom: auto;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .navBar li {
@@ -59,7 +62,7 @@ main {
     font-weight: 700;
     text-decoration: underline;
 }
-
+/* Active Links to change upon action */
 .navBar li a {
     color: inherit;
 }
@@ -159,10 +162,11 @@ main {
     margin-left: 10px;
     justify-content: center;
 }
-
+/* Set images in separate div containers for better allignment */
 .imgContainer {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 
 }
 
@@ -173,7 +177,7 @@ main {
     height: 225px;
     opacity: .60;
 }
-
+/* opacity gives a great revealing effect upon hover */
 .imgBox:hover {
     opacity: 1;
 }
@@ -264,8 +268,8 @@ main {
     color: #e66465;
     cursor: pointer;
 }
-
-@media only screen and (max-width: 1250px)  {
+/* media queries for different screen sizes */
+@media only screen and (max-width: 1300px)  {
     .h2div h2 {
         font-size: 1.2rem;
     }
@@ -279,4 +283,33 @@ main {
         font-size: 1.6rem;
         margin-top: 10px;
     }
+
+    .aboutHeader h2, .projectsHeader h2, .contactHeader h2 {
+        font-size: 1.7rem;
+        border-right: none;
+    }
+    .infoContainer, .projectsHeader {
+        border-right: none;
+        border-left: none;
+    }
+    .aboutMe, .projects, .contact {
+        display: block;
+
+    }
+}
+
+@media only screen and (max-width: 780px)  {
+    .title h1 {
+        font-size: 1rem;
+        text-align: right;
+        margin-top: 10px;
+    }
+     .navBar {
+        height: 115px;
+     }
+
+    .h2div h2 {
+        font-size: 0.8rem;
+    }
+
 }
