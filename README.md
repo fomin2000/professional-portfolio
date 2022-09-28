@@ -5,7 +5,6 @@
 This website is an application that describes my Professional Portfolio, and allows users or potential employers to look at all my experience, different profiles, view my projects, and contact me.
 
 - My motivation to build this application was to be able to decorate my experience and to be able to land great career opportuniies because of my professionalism.
-- 
 
 ## Table of Contents
 
