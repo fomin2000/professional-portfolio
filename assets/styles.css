@@ -107,6 +107,9 @@ main {
     margin-top: 20px;
 }
 
+.aboutMe img {
+    padding-left: 20px;
+}
 
 .aboutMe h2 {
     font-size: 2.75rem;
